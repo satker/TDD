@@ -33,7 +33,7 @@ public class FibonacciParameterizedNumbersTest {
                 {4, 3},
                 {5, 5},
                 {6, 8},
-                {7, 13}
+                {7, 13},
         });
     }
 
@@ -42,7 +42,7 @@ public class FibonacciParameterizedNumbersTest {
         this.output = output;
     }
 
-    @Test
+    @Test(timeout = 10)
     public void shouldBeTrueInMethodFib() {
         FibonacciNumbers fibonacciNumbers = new FibonacciNumbers(); //Fixture -> System Under Test
         int result = fibonacciNumbers.fib(input); //Exercise
