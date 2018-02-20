@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681dbc7c-da0a-43b5-a708-b73b1df6b249" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/TDD/java/FibonachiNumbers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/TDD/test/FibonachiNumbersTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/java/FibonachiNumbers.java" afterPath="$PROJECT_DIR$/src/main/fib/FibonachiNumbers.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/FibonachiNumbersTest.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +19,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="FibonachiNumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/FibonachiNumbers.java">
+        <entry file="file://$PROJECT_DIR$/src/main/fib/FibonachiNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FibonachiNumbersTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/FibonachiNumbersTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/fib/FibonachiNumbersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="-18">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -59,6 +63,8 @@
         <option value="$PROJECT_DIR$/src/java/FibonachiNumbers.java" />
         <option value="$PROJECT_DIR$/src/java/FibonachiNumbersTest.java" />
         <option value="$PROJECT_DIR$/src/test/FibonachiNumbersTest.java" />
+        <option value="$PROJECT_DIR$/src/java/fib/FibonachiNumbers.java" />
+        <option value="$PROJECT_DIR$/src/test/fib/FibonachiNumbersTest.java" />
       </list>
     </option>
   </component>
@@ -105,13 +111,13 @@
               <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="fib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,15 +189,15 @@
     <configuration name="FibonachiNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="test.fib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="TDD" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.FibonachiNumbersTest" />
+      <option name="PACKAGE_NAME" value="test.fib" />
+      <option name="MAIN_CLASS_NAME" value="test.fib.FibonachiNumbersTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -208,7 +214,7 @@
     <configuration name="FibonachiNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="java.*" />
+          <option name="PATTERN" value="java.fib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,7 +239,7 @@
     <configuration name="FibonachiNumbersTest.shouldBeTrueInMethodFib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="java.*" />
+          <option name="PATTERN" value="java.fib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,7 +305,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519108040961</updated>
-      <workItem from="1519108070470" duration="1046000" />
+      <workItem from="1519108070470" duration="1421000" />
     </task>
     <servers />
   </component>
@@ -313,6 +319,12 @@
     <history-entry file="FibonachiNumbersTest - 2018.02.20 at 09h 45m 23s.xml">
       <configuration name="FibonachiNumbersTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FibonachiNumbersTest - 2018.02.20 at 09h 50m 06s.xml">
+      <configuration name="FibonachiNumbersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonachiNumbersTest - 2018.02.20 at 09h 51m 06s.xml">
+      <configuration name="FibonachiNumbersTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="FibonachiNumbersTest_(1) - 2018.02.20 at 09h 43m 01s.xml">
       <configuration name="FibonachiNumbersTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -324,7 +336,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1046000" />
+    <option name="totallyTimeSpent" value="1421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -338,7 +350,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -396,18 +408,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/FibonachiNumbers.java">
+    <entry file="file://$PROJECT_DIR$/src/main/fib/FibonachiNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/FibonachiNumbersTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/fib/FibonachiNumbersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="-18">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>

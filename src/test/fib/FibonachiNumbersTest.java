@@ -1,8 +1,8 @@
-package test;
+package test.fib;
 
 import static org.junit.Assert.assertEquals;
 
-import java.FibonachiNumbers;
+import main.fib.FibonachiNumbers;
 import java.util.Arrays;
 import java.util.Collection;
 import org.junit.Before;
