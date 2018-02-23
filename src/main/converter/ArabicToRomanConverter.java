@@ -2,9 +2,9 @@ package main.converter;
 
 public class ArabicToRomanConverter {
 
-  private static final int[] INIT_ARABIC = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100};
+  private static final int[] INIT_ARABIC = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 90, 100};
   private static final String[] INIT_STRING = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII",
-      "IX", "X", "L", "C"};
+      "IX", "X", "L", "XC", "C"};
 
   public String getRoman(int arabic) {
     if (getRomanIfPresentInitArabic(arabic) != null) {
@@ -23,10 +23,14 @@ public class ArabicToRomanConverter {
         if (i == arabicToString.length() - 1) {
           roman.append(getRomanIfPresentInitArabic(digit));
         } else {
-          String digitRomanNumber = getRomanIfPresentInitArabic(
-              Math.pow(10, (arabicToString.length() - i - 1)));
-          for (int j = 0; j < digit; j++) {
-            roman.append(digitRomanNumber);
+          double a = digit * Math.pow(10, (arabicToString.length() - i - 1));
+          if (getRomanIfPresentInitArabic(a) != null) {
+            roman.append(getRomanIfPresentInitArabic(a));
+          } else {
+            String digitRomanNumber = getRomanIfPresentInitArabic(a / digit);
+            for (int j = 0; j < digit; j++) {
+              roman.append(digitRomanNumber);
+            }
           }
         }
       }

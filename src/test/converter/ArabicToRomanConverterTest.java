@@ -49,6 +49,7 @@ public class ArabicToRomanConverterTest {
         {25, "XXV"},
         {30, "XXX"},
         {50, "L"},
+        {99, "XCIX"},
         {123, "CXXIII" }
     });
   }
