@@ -1,10 +1,9 @@
 package main.converter;
 
-public class ArabicToRomanConverter {
+import static main.converter.InitConstantNumerals.INIT_ARABIC;
+import static main.converter.InitConstantNumerals.INIT_STRING;
 
-  private static final int[] INIT_ARABIC = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 90, 100};
-  private static final String[] INIT_STRING = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII",
-      "IX", "X", "L", "XC", "C"};
+public class ArabicToRomanConverter {
 
   public String getRoman(int arabic) {
     if (getRomanIfPresentInitArabic(arabic) != null) {

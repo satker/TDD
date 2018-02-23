@@ -48,9 +48,21 @@ public class ArabicToRomanConverterTest {
         {20, "XX"},
         {25, "XXV"},
         {30, "XXX"},
+        {44, "XLIV"},
         {50, "L"},
+        {70, "LXX"},
+        {89, "LXXXIX"},
         {99, "XCIX"},
-        {123, "CXXIII" }
+        {123, "CXXIII"},
+        {200, "CC"},
+        {389, "CCCLXXXIX"},
+        {400, "CD"},
+        {500, "D"},
+        {600, "DC"},
+        {700, "DCC"},
+        {800, "DCCC"},
+        {900, "CM"},
+        {1000, "M"},
     });
   }
 
