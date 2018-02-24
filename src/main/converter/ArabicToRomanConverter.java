@@ -1,7 +1,7 @@
 package main.converter;
 
 import static main.converter.InitConstantNumerals.INIT_ARABIC;
-import static main.converter.InitConstantNumerals.INIT_STRING;
+import static main.converter.InitConstantNumerals.INIT_ROMAN;
 
 public class ArabicToRomanConverter {
 
@@ -41,7 +41,7 @@ public class ArabicToRomanConverter {
     String roman = null;
     for (int i = 0; i < INIT_ARABIC.length; i++) {
       if (INIT_ARABIC[i] == arabic) {
-        roman = INIT_STRING[i];
+        roman = INIT_ROMAN[i];
       }
     }
     return roman;
