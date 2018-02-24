@@ -32,6 +32,6 @@ public class RomanToArabicConverter {
         }
       }
     }
-    return result;
+    throw new IllegalArgumentException();
   }
 }

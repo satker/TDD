@@ -12,7 +12,7 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-public class RomanToArabicConverterTest {
+public class RomanToArabicConverterParameterizedTest {
 
   private String input;
   private int output;
@@ -67,7 +67,7 @@ public class RomanToArabicConverterTest {
     });
   }
 
-  public RomanToArabicConverterTest(String input, int output) {
+  public RomanToArabicConverterParameterizedTest(String input, int output) {
     this.input = input;
     this.output = output;
   }
