@@ -11,7 +11,7 @@ public class RomanToArabicConverter {
     return searchArabicInPatterns(input, 0);
   }
 
-  public int searchArabicInPatterns(String roman, int result) {
+  private int searchArabicInPatterns(String roman, int result) {
     String[] inputArray = roman.trim()
                                .split("");
     for (int i = inputArray.length - 1; i >= 0; i--) {

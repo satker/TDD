@@ -7,5 +7,4 @@ class InitConstantNumerals {
   static final String[] INIT_ROMAN = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII",
       "IX", "X", "XL", "L", "LX", "LXX", "LXXX", "XC", "C", "CD", "D", "DC", "DCC", "DCCC", "CM",
       "M"};
-
 }

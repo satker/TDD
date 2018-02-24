@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="681dbc7c-da0a-43b5-a708-b73b1df6b249" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/converter/RomanToArabicConverterTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/converter/RunAllTestsInConverter.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/converter/ArabicToRomanConverter.java" afterPath="$PROJECT_DIR$/src/main/converter/ArabicToRomanConverter.java" />
       <change beforePath="$PROJECT_DIR$/src/main/converter/InitConstantNumerals.java" afterPath="$PROJECT_DIR$/src/main/converter/InitConstantNumerals.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java" afterPath="$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,12 +17,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArabicToRomanConverterTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArabicToRomanConverterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/converter/ArabicToRomanConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state relative-caret-position="146">
+              <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitConstantNumerals.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/converter/InitConstantNumerals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunAllTestsInConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/converter/RunAllTestsInConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/fib/AllTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="98" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RomanToArabicConverter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArabicToRomanConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/converter/ArabicToRomanConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-30">
+              <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,10 +129,10 @@
         <option value="$PROJECT_DIR$/src/test/converter/RomanToArabicConverter.java" />
         <option value="$PROJECT_DIR$/src/test/converter/ArabicToRomanConverterTest.java" />
         <option value="$PROJECT_DIR$/src/test/converter/RunAllTestsInConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/converter/InitConstantNumerals.java" />
-        <option value="$PROJECT_DIR$/src/main/converter/ArabicToRomanConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java" />
         <option value="$PROJECT_DIR$/src/test/converter/RomanToArabicConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/converter/ArabicToRomanConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/converter/InitConstantNumerals.java" />
       </list>
     </option>
   </component>
@@ -113,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,10 +240,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,30 +281,24 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.RunAllTestsInConverter">
-    <configuration name="ArabicToRomanConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InitConstantNumerals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="main.converter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="TDD" />
+      <option name="MAIN_CLASS_NAME" value="main.converter.InitConstantNumerals" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.converter" />
-      <option name="MAIN_CLASS_NAME" value="test.converter.ArabicToRomanConverterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" value="[28]" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="TDD" />
       <envs />
-      <patterns />
     </configuration>
     <configuration name="ArabicToRomanConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -420,12 +470,12 @@
       <item index="1" class="java.lang.String" itemvalue="JUnit.RomanToArabicConverterTest (4)" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.RomanToArabicConverterTest (1)" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.RomanToArabicConverterTest (2)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RomanToArabicConverterTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.InitConstantNumerals" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.RunAllTestsInConverter" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RomanToArabicConverterTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InitConstantNumerals" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.RomanToArabicConverterTest (2)" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.RomanToArabicConverterTest (1)" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.RomanToArabicConverterTest (4)" />
@@ -449,7 +499,8 @@
       <workItem from="1519147206346" duration="1059000" />
       <workItem from="1519194671825" duration="612000" />
       <workItem from="1519370275667" duration="14329000" />
-      <workItem from="1519452538816" duration="5574000" />
+      <workItem from="1519452538816" duration="5613000" />
+      <workItem from="1519473032530" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="COmmit">
       <created>1519133791875</created>
@@ -493,25 +544,17 @@
       <option name="project" value="LOCAL" />
       <updated>1519395339432</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added roman to arabic converter">
+      <created>1519458359053</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1519458359053</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanToArabicConverterTest - 2018.02.24 at 10h 44m 43s.xml">
-      <configuration name="RomanToArabicConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanToArabicConverterTest_(1) - 2018.02.24 at 10h 32m 01s.xml">
-      <configuration name="RomanToArabicConverterTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanToArabicConverterTest_(1) - 2018.02.24 at 10h 33m 46s.xml">
-      <configuration name="RomanToArabicConverterTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanToArabicConverterTest_(2) - 2018.02.24 at 10h 36m 52s.xml">
-      <configuration name="RomanToArabicConverterTest (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanToArabicConverterTest_(2) - 2018.02.24 at 10h 37m 38s.xml">
-      <configuration name="RomanToArabicConverterTest (2)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanToArabicConverterTest_(2) - 2018.02.24 at 10h 43m 10s.xml">
       <configuration name="RomanToArabicConverterTest (2)" configurationId="JUnit" />
     </history-entry>
@@ -527,9 +570,24 @@
     <history-entry file="RunAllTestsInConverter - 2018.02.24 at 10h 45m 32s.xml">
       <configuration name="RunAllTestsInConverter" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunAllTestsInConverter - 2018.02.24 at 15h 20m 55s.xml">
+      <configuration name="RunAllTestsInConverter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunAllTestsInConverter - 2018.02.24 at 15h 24m 48s.xml">
+      <configuration name="RunAllTestsInConverter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunAllTestsInConverter - 2018.02.24 at 15h 35m 31s.xml">
+      <configuration name="RunAllTestsInConverter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunAllTestsInConverter - 2018.02.24 at 15h 35m 38s.xml">
+      <configuration name="RunAllTestsInConverter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunAllTestsInConverter - 2018.02.24 at 15h 36m 59s.xml">
+      <configuration name="RunAllTestsInConverter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22995000" />
+    <option name="totallyTimeSpent" value="24988000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,7 +615,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27231467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27609682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -585,77 +643,24 @@
     <MESSAGE value="Improve code" />
     <MESSAGE value="Improve code to convert numbers till 1000" />
     <MESSAGE value="Little fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Little fix" />
+    <MESSAGE value="Added roman to arabic converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added roman to arabic converter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/converter/ArabicToRomanConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/converter/RomanToArabicConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -820,53 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/fib/AllTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/converter/RunAllTestsInConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/converter/ArabicToRomanConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/converter/InitConstantNumerals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/converter/RomanToArabicConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -881,9 +839,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/converter/ArabicToRomanConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        <state relative-caret-position="146">
+          <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/converter/RunAllTestsInConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/fib/AllTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/converter/ArabicToRomanConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/converter/InitConstantNumerals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/converter/RomanToArabicConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
