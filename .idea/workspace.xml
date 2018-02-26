@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="681dbc7c-da0a-43b5-a708-b73b1df6b249" name="Default" comment="fix constant variables">
+    <list default="true" id="681dbc7c-da0a-43b5-a708-b73b1df6b249" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Mockito/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Mockito/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Mockito/src/test/java/StarWarsTest.java" afterPath="$PROJECT_DIR$/Mockito/src/test/java/StarWarsTest.java" />
+      <change beforePath="$PROJECT_DIR$/Mockito/target/test-classes/StarWarsTest.class" afterPath="$PROJECT_DIR$/Mockito/target/test-classes/StarWarsTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -508,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519649735282</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add mockito">
+      <created>1519654677273</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1519654677273</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -602,7 +612,8 @@
     <MESSAGE value="Added roman to arabic converter" />
     <MESSAGE value="Refactor code" />
     <MESSAGE value="fix constant variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix constant variables" />
+    <MESSAGE value="Add mockito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add mockito" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

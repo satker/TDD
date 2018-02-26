@@ -1,4 +1,10 @@
+import org.junit.Rule;
 import org.junit.Test;
+import org.mockito.ArgumentCaptor;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.MockitoJUnit;
+import org.mockito.junit.MockitoRule;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,6 +16,16 @@ import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.*;
 
 public class StarWarsTest {
+    @Rule
+    public MockitoRule mockitoRule = MockitoJUnit.rule();// rule может быть немколько в отличие от Runner
+
+    @Mock
+    private
+    Robot r2d2;
+
+    @InjectMocks
+    private
+    LukeSkywalker luke;
 
     @Test
     public void test() {
@@ -57,5 +73,39 @@ public class StarWarsTest {
         assertThat(deathStarMemories.size(), is(2));
     }
 
+    @Test
+    public void testCaptor() {
+        ArgumentCaptor<String> captor = ArgumentCaptor.forClass(String.class);
 
+        Robot r2d2 = mock(Robot.class);
+
+        List<String> fakeMemories =
+                Arrays.asList("Death Star Planes",
+                        "Flighter Control Instruction",
+                        "Naboo Travel Guide");
+
+        when(r2d2.getMemories()).thenReturn(fakeMemories);
+
+        LukeSkywalker luke = new LukeSkywalker(r2d2);
+
+        luke.askRobotAbout("Death Star");
+
+        verify(r2d2).removeMemoriesAbout(captor.capture());
+
+        assertEquals("Death Star", captor.getValue());
+    }
+
+    @Test
+    public void testXtra() {
+        List<String> fakeMemories =
+                Arrays.asList("Death Star Planes",
+                        "Flighter Control Instruction",
+                        "Naboo Travel Guide");
+
+        when(r2d2.getMemories()).thenReturn(fakeMemories);
+
+        List<String> d = luke.askRobotAbout("Death Star");
+
+        assertEquals(2, d.size());
+    }
 }
